@@ -1,7 +1,6 @@
 ---
 - name: Ping Test
   hosts: all
-  become: true
 
   tasks:
     - name: Ping all
